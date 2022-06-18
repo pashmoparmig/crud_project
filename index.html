@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all_content">
+
+
+                    <!-- header -->
+        <div class="header">
+            <h1>crud s</h1>
+            <p>welcome to the managmet prodact system</p>
+        </div>
+
+                    <!-- input -->
+        <div class="inbut">
+            <input type="text" id="title" placeholder="title" ></inbut>
+            <div class="prises">
+                <input type="number" onkeyup="gettotal ()" id="price" placeholder="price">
+                <input type="number" onkeyup="gettotal ()" id="taxes" placeholder="taxes">
+                <input type="number" onkeyup="gettotal ()" id="ads" placeholder="ads">
+                <input type="number" onkeyup="gettotal ()" id="discount" placeholder="discount">
+                <small id="total" ></small>
+            </div>
+            <input type="number" id="cont" placeholder="cont">
+            <input type="text" id="catigory" placeholder="catigory">
+            <button id="submit" onkeyup="gettotal ()">creat</button>
+        </div>
+
+
+                    <!-- outbut -->
+        <div class="outbut">
+            <div class="sesrchplock">
+                <input id="search" type="text">
+                <div class="searchptn">
+                    <button id="serchtitle" >serchtitle</button>
+                    <button id="serchcatigory">serchcatigory</button>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th>id</th>
+                    <th>title</th>
+                    <th>price</th>
+                    <th>ads</th>
+                    <th>discount</th>
+                    <th>taxis</th>
+                    <th>total</th>
+                    <th>catigory</th>
+                    <th>update</th>
+                    <th>delet</th>
+                </tr>
+
+                <tbody id="tbody">
+                    <!-- <tr>
+                        <td>1</td>
+                        <td>22</td>
+                        <td>22</td>
+                        <td>44</td>
+                        <td>44</td>
+                        <td>44</td>
+                        <td>33</td>
+                        <td><button>update</button></td>
+                        <td><button>delat</button></td>
+                    </tr> -->
+                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script type="" src="main.js">
+</body>
+</html>
